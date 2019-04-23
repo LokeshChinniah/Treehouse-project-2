@@ -1,6 +1,50 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url('https://fonts.googleapis.com/css?family=Raleway') format('true type');
+}
+
 h1,
 h2,
 h3,
 li {
-  font-family: Raleway;
+  font: 'Raleway';
+}
+
+a:link {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.main-nav li {
+  background: #fff;
+  margin-top: 5px;
+}
+
+.main-nav ul {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.main-nav {
+  background: lightgrey;
+  text-align: center;
+}
+
+.portfolio {
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+}
+
+.t-border{
+  border-bottom: 1px solid grey;
+}
+
+.mini-nav {
+
 }
