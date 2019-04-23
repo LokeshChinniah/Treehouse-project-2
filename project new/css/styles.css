@@ -1,13 +1,27 @@
-@font-face {
-  font-family: 'Raleway';
-  src: url('https://fonts.googleapis.com/css?family=Raleway') format('true type');
+
+html {
+  margin-left: -8px;
+  margin-right: -8px !important;
+  margin-top: -21px;
+  margin-bottom: -10px !important;
+  overflow-x: hidden;
 }
 
 h1,
 h2,
 h3,
 li {
-  font: 'Raleway';
+  font-family: 'Merriweather', serif;
+}
+
+p,
+article {
+  font-family: 'Raleway', sans-serif;
+}
+
+article {
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 a:link {
@@ -18,9 +32,34 @@ ul {
   list-style-type: none;
 }
 
+footer {
+  background: #d3d3d340;
+}
+
+body{
+  margin-bottom:-10px;
+}
+
+.portfolio img {
+  width:90%;
+}
+
+
+.profile-pic {
+  width: 75%;
+}
+
+.main p {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 8px;
+}
+
 .main-nav li {
   background: #fff;
   margin-top: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .main-nav ul {
@@ -29,22 +68,29 @@ ul {
 }
 
 .main-nav {
-  background: lightgrey;
+  background: #d3d3d340;
   text-align: center;
+  padding-top: 5px;
+  padding-bottom: 15px;
 }
 
 .portfolio {
   text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .footer {
   text-align: center;
+  padding-top: 15px;
 }
 
 .t-border{
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid lightgrey;
 }
 
 .mini-nav {
-
+  padding-top: 15px;
+  margin-bottom: -20px;
+  padding-bottom: 8px;
 }
