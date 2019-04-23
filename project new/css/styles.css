@@ -10,7 +10,8 @@ html {
 h1,
 h2,
 h3,
-li {
+li,
+h4 {
   font-family: 'Merriweather', serif;
 }
 
@@ -32,12 +33,24 @@ ul {
   list-style-type: none;
 }
 
+li {
+  text-align: center;
+}
+
 footer {
   background: #d3d3d340;
 }
 
 body{
   margin-bottom:-10px;
+}
+
+h4 {
+  float: left;
+  width: 50%;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .portfolio img {
@@ -58,8 +71,8 @@ body{
 .main-nav li {
   background: #fff;
   margin-top: 5px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 13px;
+  padding-bottom: 13px;
 }
 
 .main-nav ul {
@@ -83,14 +96,20 @@ body{
 .footer {
   text-align: center;
   padding-top: 15px;
+  width: 100%;
 }
 
 .t-border{
-  border-bottom: 1px solid lightgrey;
+  border-top: 1px solid lightgrey;
 }
 
 .mini-nav {
-  padding-top: 15px;
-  margin-bottom: -20px;
-  padding-bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
 }
