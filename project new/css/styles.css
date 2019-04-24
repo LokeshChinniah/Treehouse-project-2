@@ -112,6 +112,10 @@ h4 {
   text-align: center;
 }
 
+.large-nav {
+  display: none;
+}
+
 .group:after {
   content: "";
   display: table;
@@ -184,6 +188,26 @@ h4 {
   .six {
     float:right;
     width: 50%;
+  }
+
+  .mini-nav {
+    display: none;
+  }
+
+  .large-nav {
+    padding-top: 15px;
+    padding-bottom: 80px;
+  }
+
+  .nav-name {
+    float: left;
+    width: 70%;
+    text-align: left;
+  }
+
+  .nav-bottom-items {
+    float: right;
+    width: 10%;
   }
 
 
