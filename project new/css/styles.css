@@ -93,6 +93,10 @@ h4 {
   padding-bottom: 15px;
 }
 
+.skills {
+  text-align: center;
+}
+
 .footer {
   text-align: center;
   padding-top: 15px;
@@ -112,4 +116,75 @@ h4 {
   content: "";
   display: table;
   clear: both;
+}
+
+
+@media (min-width: 768px) {
+  .nav li {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: inherit;
+  }
+
+  .main {
+    display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+
+  .main p {
+    width: 60%;
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+
+  .main img {
+    width: 40%;
+    padding-right: 18px;
+
+  }
+
+  .nav {
+    display: inline-block;
+    Padding-bottom: 45px;
+  }
+
+  .name {
+    margin-bottom: 0px;
+  }
+
+  .one {
+    float: left;
+    width: 50%;
+  }
+
+  .two {
+    float: right;
+    width: 50%;
+  }
+
+  .three {
+    float: left;
+    width: 50%;
+  }
+
+  .four {
+    float: right;
+    width: 50%;
+  }
+
+  .five {
+    float: left;
+    width: 50%;
+  }
+
+  .six {
+    float:right;
+    width: 50%;
+  }
+
+
 }

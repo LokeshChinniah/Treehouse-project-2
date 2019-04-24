@@ -10,65 +10,77 @@
   <body>
     <header>
       <div class="main-nav">
-        <h1>Lokesh Chinniah</h1>
-        <nav class="nav">
-          <ul>
-            <li>HOME</li>
-            <li>PORTFOLIO</li>
-            <li>SKILLS</li>
-            <li>CONTACT</li>
-          </ul>
-        </nav>
+        <div class="nav-top">
+          <h1 class="name">Lokesh Chinniah</h1>
+          <nav class="nav">
+            <ul>
+              <li>HOME</li>
+              <li>PORTFOLIO</li>
+              <li>SKILLS</li>
+              <li>CONTACT</li>
+            </ul>
+          </nav>
+        </div>
 
         <main class="main">
-          <img class="profile-pic" src="img/responsive-layout-profile.png" alt="self-portrait">
           <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end web development at Treehouse and am excited to put all my skills to use!</p>
+          <img class="profile-pic" src="img/responsive-layout-profile.png" alt="self-portrait">
         </main>
       </div>
 
       <body>
 
-        <article class="portfolio">
+        <div class="portfolio group">
 
           <h2>PORTFOLIO</h2>
 
-          <article>
+          <article class="one primary">
             <img src="img/portfolio-1.png" alt="Marketing Page">
             <h3>Marketing page</h3>
             <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
           </article>
 
-          <article>
+          <article class="two primary">
             <img src="img/portfolio-2.png" alt="Search Page">
             <h3>Search Page</h3>
             <p>This project searches through a specific database to find information that the user is trying to look up.</p>
           </article>
 
-          <article>
+          <article class="three secondary">
             <img src="img/portfolio-3.png" alt="Travel App">
             <h3>Travel App</h3>
             <p>This project compares travel times based on different trasnportation methods and tells you the best one.</p>
           </article>
 
-          <article>
+          <article class="four secondary">
             <img src="img/portfolio-4.png" alt="Map of Favorite Spots">
             <h3>Map of Favorite Spots</h3>
             <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
           </article>
 
-          <article>
+          <article class="five tertiary">
             <img src="img/portfolio-5.png" alt="Photo Gallery">
             <h3>Photo Gallery</h3>
             <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
           </article>
 
-          <article>
+          <article class="six tertiary">
             <img src="img/portfolio-6.png" alt="Calculator">
             <h3>Calculator</h3>
             <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
           </article>
 
-        </article>
+        </div>
+
+      <div class="skills t-border">
+
+        <h2>SKILLS</h2>
+
+        <img src="img/skills.jpg" alt="generic portrait">
+        <p>I am currently taking a course in Front-End Web Development and I hope to one day master it!</p>
+        <p>I have had previous experience in Retail, Customer Service and Handyman work</p>
+
+
 
       </body>
 
@@ -82,7 +94,7 @@
         <nav>
           <div class="mini-nav t-border">
             <h4>Lokesh Chinniah</h4>
-            <h4>Back To Top</h4>
+            <h4><a href="#">Back To Top</a></h4>
           </div>
         </nav>
       </footer>
