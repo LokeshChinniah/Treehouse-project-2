@@ -10,27 +10,27 @@
   <body>
     <header>
       <div class="main-nav">
-        <div class="nav-top">
+        <div class="nav-top group">
           <h1 class="name">Lokesh Chinniah</h1>
           <nav class="nav">
             <ul>
-              <li>HOME</li>
-              <li>PORTFOLIO</li>
-              <li>SKILLS</li>
-              <li>CONTACT</li>
+              <li><a href="#">HOME</a></li>
+              <li><a href="index.html#porfolio">PORTFOLIO</a></li>
+              <li><a href="index.html#skills">SKILLS</a></li>
+              <li><a href="index.html#contact">CONTACT</a></li>
             </ul>
           </nav>
         </div>
 
-        <main class="main">
+        <div class="main">
           <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end web development at Treehouse and am excited to put all my skills to use!</p>
           <img class="profile-pic" src="img/responsive-layout-profile.png" alt="self-portrait">
-        </main>
+        </div>
       </div>
 
-      <body>
+      <div class="body">
 
-        <div class="portfolio group">
+        <div class="portfolio group" id="portfolio">
 
           <h2>PORTFOLIO</h2>
 
@@ -46,7 +46,7 @@
             <p>This project searches through a specific database to find information that the user is trying to look up.</p>
           </article>
 
-          <article class="three secondary">
+          <article class="three primary">
             <img src="img/portfolio-3.png" alt="Travel App">
             <h3>Travel App</h3>
             <p>This project compares travel times based on different trasnportation methods and tells you the best one.</p>
@@ -58,13 +58,13 @@
             <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
           </article>
 
-          <article class="five tertiary">
+          <article class="five secondary">
             <img src="img/portfolio-5.png" alt="Photo Gallery">
             <h3>Photo Gallery</h3>
             <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
           </article>
 
-          <article class="six tertiary">
+          <article class="six secondary">
             <img src="img/portfolio-6.png" alt="Calculator">
             <h3>Calculator</h3>
             <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
@@ -72,38 +72,37 @@
 
         </div>
 
-      <div class="skills t-border">
+        <div class="skills t-border" id="skills">
 
-        <h2>SKILLS</h2>
+          <h2>SKILLS</h2>
 
-        <img src="img/skills.jpg" alt="generic portrait">
-        <p>I am currently taking a course in Front-End Web Development and I hope to one day master it!</p>
-        <p>I have had previous experience in Retail, Customer Service and Handyman work</p>
+          <img src="img/skills.jpg" alt="generic portrait">
+          <p>I am currently taking a course in Front-End Web Development and I hope to one day master it!</p>
+          <p>I have had previous experience in Retail, Customer Service and Handyman work.</p>
 
-
-
-      </body>
-
-      <footer class="group">
-        <div class="footer">
-          <h2>CONTACT</h2>
-          <p>If You're interested in chatting or want more information about what i've been working on, I'd love to hear from you!</p>
-          <p>Phone: <strong>+1(111) 555-1234</strong></p>
-          <p>Email: <strong>email@yoursite.com</strong></p>
         </div>
-        <nav>
-          <div class="mini-nav t-border">
-            <h4>Lokesh Chinniah</h4>
-            <h4><a href="#">Back To Top</a></h4>
-          </div>
-          <div class="large-nav t-border group">
-            <h4 class="nav-name">Lokesh Chinniah</h4>
-            <h4 class="nav-bottom-items">HOME</h4>
-            <h4 class="nav-bottom-items">PORTFOLIO</h4>
-            <h4 class="nav-bottom-items">SKILLS</h4>
-          </div>
-        </nav>
-      </footer>
+
+      </div>
     </header>
+    <footer class="group">
+      <div class="footer">
+        <h2 id="contact">CONTACT</h2>
+        <p>If You're interested in chatting or want more information about what i've been working on, I'd love to hear from you!</p>
+        <p>Phone: <strong>+1(111) 555-1234</strong></p>
+        <p>Email: <strong>email@yoursite.com</strong></p>
+      </div>
+      <nav>
+        <div class="mini-nav t-border">
+          <h4>Lokesh Chinniah</h4>
+          <h4><a href="#">Back To Top</a></h4>
+        </div>
+        <div class="large-nav t-border group">
+          <h4 class="nav-name">Lokesh Chinniah</h4>
+          <h4 class="nav-bottom-items"><a href="#">HOME</a></h4>
+          <h4 class="nav-bottom-items"><a href="index.html#portfolio">PORTFOLIO</a></h4>
+          <h4 class="nav-bottom-items"><a href="index.html#skills">SKILLS</a></h4>
+        </div>
+      </nav>
+    </footer>
   </body>
 </html>

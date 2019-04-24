@@ -10,12 +10,12 @@ html {
 h1,
 h2,
 h3,
-li,
 h4 {
   font-family: 'Merriweather', serif;
 }
 
 p,
+li,
 article {
   font-family: 'Raleway', sans-serif;
 }
@@ -39,6 +39,7 @@ li {
 
 footer {
   background: #d3d3d340;
+  padding-bottom: 10px;
 }
 
 body{
@@ -51,6 +52,10 @@ h4 {
   margin: 0px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+#contact {
+  padding-bottom: 15px;
 }
 
 .portfolio img {
@@ -83,7 +88,7 @@ h4 {
 .main-nav {
   background: #d3d3d340;
   text-align: center;
-  padding-top: 5px;
+  padding-top: 15px;
   padding-bottom: 15px;
 }
 
@@ -100,6 +105,7 @@ h4 {
 .footer {
   text-align: center;
   padding-top: 15px;
+  padding-bottom: 15px;
   width: 100%;
 }
 
@@ -116,6 +122,22 @@ h4 {
   display: none;
 }
 
+a:link {
+  color: skyblue;
+}
+
+a:active {
+  color: turquoise;
+}
+
+a:hover {
+  color: teal;
+}
+
+a:visited {
+  color: blue;
+}
+
 .group:after {
   content: "";
   display: table;
@@ -124,6 +146,7 @@ h4 {
 
 
 @media (min-width: 768px) {
+
   .nav li {
     float: left;
     padding-left: 10px;
@@ -143,6 +166,7 @@ h4 {
     width: 60%;
     padding-left: 9px;
     padding-right: 9px;
+    font-size: large;
   }
 
   .main img {
@@ -197,6 +221,7 @@ h4 {
   .large-nav {
     padding-top: 15px;
     padding-bottom: 80px;
+    display: initial;
   }
 
   .nav-name {
@@ -208,6 +233,54 @@ h4 {
   .nav-bottom-items {
     float: right;
     width: 10%;
+  }
+
+
+}
+
+@media (min-width:1024px) {
+
+  .name {
+    text-align: left;
+    float: left;
+    width: 70%;
+  }
+
+  .nav {
+    float: right;
+    width: 30%;
+  }
+
+  .primary {
+    float: left;
+  }
+
+  .one {
+    width: 33%;
+  }
+
+  .two {
+    width: 33%;
+  }
+
+  .three {
+    width: 33%;
+  }
+
+  .secondary {
+    float: left;
+  }
+
+  .four {
+    width: 33%;
+  }
+
+  .five {
+    width: 33%;
+  }
+
+  .six {
+    width: 33%;
   }
 
 
