@@ -46,3 +46,16 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Merriweather', serif;
+}
+
+p,
+li,
+article {
+  font-family: 'Raleway', sans-serif;
+}
