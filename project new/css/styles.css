@@ -80,6 +80,7 @@ h4 {
   padding-bottom: 13px;
 }
 
+.nav-bottom-items,
 .main-nav ul {
   padding-left: 1em;
   padding-right: 1em;
@@ -186,32 +187,32 @@ a:visited {
 
   .one {
     float: left;
-    width: 50%;
+    width: 48%;
   }
 
   .two {
     float: right;
-    width: 50%;
+    width: 48%;
   }
 
   .three {
     float: left;
-    width: 50%;
+    width: 48%;
   }
 
   .four {
     float: right;
-    width: 50%;
+    width: 48%;
   }
 
   .five {
     float: left;
-    width: 50%;
+    width: 48%;
   }
 
   .six {
     float:right;
-    width: 50%;
+    width: 48%;
   }
 
   .mini-nav {
@@ -225,14 +226,18 @@ a:visited {
   }
 
   .nav-name {
-    float: left;
-    width: 70%;
     text-align: left;
+    float: left;
+  }
+
+  .nav-bottom-items li {
+    display: inline-block;
+    margin-right: 20px;
   }
 
   .nav-bottom-items {
+    text-align: right;
     float: right;
-    width: 10%;
   }
 
 
@@ -243,12 +248,11 @@ a:visited {
   .name {
     text-align: left;
     float: left;
-    width: 70%;
   }
 
   .nav {
+    text-align: right;
     float: right;
-    width: 30%;
   }
 
   .primary {
