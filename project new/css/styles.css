@@ -7,22 +7,13 @@ html {
   overflow-x: hidden;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  font-family: 'Merriweather', serif;
-}
 
-p,
-li,
-article {
-  font-family: 'Raleway', sans-serif;
-}
 
 article {
   padding-top: 12px;
   padding-bottom: 12px;
+  height: 400px;
+
 }
 
 a:link {
