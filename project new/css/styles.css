@@ -131,11 +131,11 @@ a:active {
 }
 
 a:hover {
-  color: teal;
+  color: lightgreen;
 }
 
 a:visited {
-  color: blue;
+  color: teal;
 }
 
 .group:after {
